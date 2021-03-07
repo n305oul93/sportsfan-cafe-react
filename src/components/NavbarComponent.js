@@ -25,9 +25,11 @@ class MainNavbar extends Component {
 
   render() {
     return (
-      <Navbar light fixed='top' expand='md'>
+      <Navbar fixed='top' expand='md'>
         <div className='container'>
-          <NavbarBrand href='/'>Sportsfan Café</NavbarBrand>
+          <NavbarBrand className='navbarBrand' href='/'>
+            Sportsfan Café
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggleNav} />
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar className='ml-auto'>
