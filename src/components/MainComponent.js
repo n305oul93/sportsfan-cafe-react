@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import MainNavbar from './NavbarComponent';
-// import Home from './HomeComponent';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import React, { Component } from 'react'
+import MainNavbar from './NavbarComponent'
+import HomePage from './HomePageComponent'
+import { Switch, Route, Redirect } from 'react-router-dom'
 
 class Main extends Component {
   render() {
@@ -9,11 +9,12 @@ class Main extends Component {
       <>
         <MainNavbar />
         <Switch>
+          <Route exact path='/' component={HomePage} />
           <Redirect to='/' />
         </Switch>
       </>
-    );
+    )
   }
 }
 
-export default Main;
+export default Main
