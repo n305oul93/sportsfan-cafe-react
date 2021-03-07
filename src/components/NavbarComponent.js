@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   Nav,
   Navbar,
@@ -6,26 +6,26 @@ import {
   NavbarToggler,
   Collapse,
   NavItem
-} from 'reactstrap';
-import { NavLink } from 'react-router-dom';
-import '../css/Navbar.css';
+} from 'reactstrap'
+import { NavLink } from 'react-router-dom'
+import '../css/Navbar.css'
 
 class MainNavbar extends Component {
   constructor(props) {
-    super(props);
-    this.toggleNav = this.toggleNav.bind(this);
+    super(props)
+    this.toggleNav = this.toggleNav.bind(this)
     this.state = {
       isNavOpen: false
-    };
+    }
   }
 
   toggleNav() {
-    this.setState({ isNavOpen: !this.state.isNavOpen });
+    this.setState({ isNavOpen: !this.state.isNavOpen })
   }
 
   render() {
     return (
-      <Navbar light expand='md'>
+      <Navbar light fixed='top' expand='md'>
         <div className='container'>
           <NavbarBrand href='/'>Sportsfan Café</NavbarBrand>
           <NavbarToggler onClick={this.toggleNav} />
@@ -70,8 +70,8 @@ class MainNavbar extends Component {
           </Collapse>
         </div>
       </Navbar>
-    );
+    )
   }
 }
 
-export default MainNavbar;
+export default MainNavbar
