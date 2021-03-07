@@ -25,11 +25,12 @@ class MainNavbar extends Component {
 
   render() {
     return (
-      <Navbar fixed='top' expand='md'>
+      <Navbar dark fixed='top' expand='md'>
         <div className='container'>
           <NavbarBrand className='navbarBrand' href='/'>
             Sportsfan Café
           </NavbarBrand>
+          {/* FIXME: menu is in middle & overlaps text */}
           <NavbarToggler onClick={this.toggleNav} />
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar className='ml-auto'>
@@ -64,7 +65,8 @@ class MainNavbar extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className='nav-link' to='/'>
+                {/* FIXME: btn-outline-secondary */}
+                <NavLink className='nav-link btn btn-outline-secondary' to='/'>
                   Request a tour
                 </NavLink>
               </NavItem>

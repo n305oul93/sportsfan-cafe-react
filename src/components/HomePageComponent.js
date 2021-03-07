@@ -6,8 +6,6 @@ function HomePage() {
   return (
     <>
       <div className='home-page'>
-        Home Page
-        <br />
         <Header />
       </div>
     </>
