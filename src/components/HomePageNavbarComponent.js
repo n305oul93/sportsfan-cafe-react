@@ -8,9 +8,9 @@ import {
   NavItem
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
-import '../css/Navbar.css'
+import '../css/HomePageNavbar.css'
 
-class PageNavbar extends Component {
+class HomePageNavbar extends Component {
   constructor(props) {
     super(props)
     this.toggleNav = this.toggleNav.bind(this)
@@ -25,12 +25,13 @@ class PageNavbar extends Component {
 
   render() {
     return (
-      <Navbar light fixed='top' expand='md' className='pageNavbar bg-white'>
+      <Navbar dark fixed='top' expand='md'>
         <div className='container'>
           <NavbarBrand className='navbarBrand' href='/'>
             Sportsfan Café
           </NavbarBrand>
           {/* FIXME: menu is in middle & overlaps text */}
+          {/* TODO: fix background color for dropdown navbar */}
           <NavbarToggler onClick={this.toggleNav} />
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar className='ml-auto'>
@@ -78,4 +79,4 @@ class PageNavbar extends Component {
   }
 }
 
-export default PageNavbar
+export default HomePageNavbar

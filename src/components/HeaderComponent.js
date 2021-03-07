@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Header.css'
 
 function Header() {
+  // TODO: fix mobile sizing using media queries
   return (
     <div className='headerContent d-flex flex-column justify-content-center align-items-center vh-100 text-white'>
       <p>Dallas Premier Sports Cafè</p>

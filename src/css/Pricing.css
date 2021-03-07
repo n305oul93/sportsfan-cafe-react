@@ -1,0 +1,20 @@
+.pageNavbar {
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.priceHeader {
+  background: url('../assets/images/fireside-chairs.jpg') center/cover;
+  color: white;
+  min-height: 45vh;
+  margin-top: 60px;
+}
+
+.media {
+  box-shadow: 15px 15px 15px grey;
+  background: rgb(248, 248, 248);
+}
+
+.media-image {
+  width: 400px;
+  margin: 20px;
+}

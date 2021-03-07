@@ -1,5 +1,5 @@
 .nav-link,
 .navbarBrand {
-  font-weight: bold;
-  color: white;
+  font-weight: normal !important;
+  color: black !important;
 }
