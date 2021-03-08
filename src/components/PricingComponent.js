@@ -38,9 +38,9 @@ function Pricing() {
   return (
     <>
       <PageNavbar />
-      <div className='priceHeader d-flex justify-content-center align-items-center'>
+      <header className='priceHeader d-flex justify-content-center align-items-center'>
         <h1>Member Pricing</h1>
-      </div>
+      </header>
       <div className='container'>
         <p className='lead text-center'>Reserve Your Space Today</p>
         <SpaceCards
