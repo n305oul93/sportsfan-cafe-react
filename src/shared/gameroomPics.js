@@ -1,22 +1,17 @@
-export const GameroomPics = [
+export const GAMEROOMPICS = [
   {
     id: 0,
-    image: '../assets/images/gamerooms/foosball-1-sm.jpg'
+    title: 'Private Gameroom - Cowboys',
+    image: 'images/gamerooms/gameroom-pool-table-2.jpg'
   },
   {
     id: 1,
-    image: '../assets/images/gamerooms/foosball-1.jpg'
+    title: 'Private Gameroom - Mavericks',
+    image: 'images/gamerooms/gameroom-pool-table.jpg'
   },
   {
     id: 2,
-    image: '../assets/images/gamerooms/gameroom-pool-table-sm.jpg'
-  },
-  {
-    id: 3,
-    image: '../assets/images/gamerooms/gameroom-pool-table-2.jpg'
-  },
-  {
-    id: 4,
-    image: '../assets/images/gamerooms/gameroom-pool-table.jpg'
+    title: 'Foosball Table',
+    image: 'images/gamerooms/foosball-1-sm.jpg'
   }
 ]
