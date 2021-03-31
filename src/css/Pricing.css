@@ -1,4 +1,5 @@
 .priceHeader {
+  /* FIXME: import image from json-server */
   background: url('../assets/images/fireside-chairs.jpg') center/cover;
   color: white;
   min-height: 45vh;

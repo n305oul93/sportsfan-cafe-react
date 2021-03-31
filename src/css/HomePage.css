@@ -1,5 +1,6 @@
 .home-page {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
-    url('../assets/images/thorpeness.jpg');
+    /* FIXME: obtain image from json-server */
+      url('../assets/images/thorpeness.jpg');
   height: 100vh;
 }

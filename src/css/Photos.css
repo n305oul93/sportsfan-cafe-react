@@ -1,4 +1,5 @@
 .photosHeader {
+  /* FIXME: import image from json-server */
   background: url('../assets/images/balconies/balcony-1-xl.jpg') center/cover;
   min-height: 45vh;
   color: white;

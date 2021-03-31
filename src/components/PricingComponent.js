@@ -44,16 +44,19 @@ function Pricing() {
       <div className='container'>
         <p className='lead text-center'>Reserve Your Space Today</p>
         <SpaceCards
+          // FIXME: import image from json-server
           image={gameroomPoolTableSm}
           title={'Day Pass'}
           price={'$20/day'}
         />
         <SpaceCards
+          // FIXME: import image from json-server
           image={meetingRoomSm}
           title={'Virtual Office Membership'}
           price={'$50/month'}
         />
         <SpaceCards
+          // FIXME: import image from json-server
           image={cafe1Sm}
           title={'Cafe Club Membership'}
           price={'$99/month'}
