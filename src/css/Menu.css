@@ -1,0 +1,6 @@
+.main-menu {
+  background: url('../assets/images/cafe/cafe-1.jpg') center/cover;
+  min-height: 93vh;
+  color: white;
+  margin-top: 65px;
+}

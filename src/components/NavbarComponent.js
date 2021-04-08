@@ -35,7 +35,7 @@ class PageNavbar extends Component {
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar className='ml-auto'>
               <NavItem>
-                <NavLink className='nav-link' to='/'>
+                <NavLink className='nav-link' to='/menu'>
                   Menu
                 </NavLink>
               </NavItem>
